@@ -1,0 +1,139 @@
+.footer-container{
+  background-color: #242424;
+  padding: 4em 0 2em 0;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer-subscription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: #fff;
+}
+
+.footer-subscription> p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darkgrey;
+}
+
+.footer-subscription-heading{
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footer-subscription-text {
+ margin-bottom: 24px;
+ font-size: 20px;
+}
+
+.footer-input{
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.footer-links{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link-wrapper {
+  display: flex;
+}
+
+
+.footer-link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.footer-link-item h2 {
+  margin-bottom: 16px;
+}
+
+.footer-link-item > h2 {
+  color:#fff;
+}
+
+.footer-link-item a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-link-item a:hover {
+  color: red;
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 32px;
+}
+
+.footer-input::placeholder {
+  color: grey;
+}
+
+/* social tags*/
+.social-icon-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-media {
+  
+  width: 100%;
+}
+
+.social-media-wrap{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 40 auto 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.website-right{
+  color: #fff;
+  margin-bottom: 16px;
+}
+.fa-camera{
+ margin-right: 4px;
+ margin-top: 4px;
+
+}
